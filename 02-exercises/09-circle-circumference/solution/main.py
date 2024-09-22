@@ -1,4 +1,6 @@
 PI = 3.14
 
-circumference = 2 * PI * 4
+radius = float(input("Indtast radius: "))
+
+circumference = 2 * PI * radius
 print(circumference)

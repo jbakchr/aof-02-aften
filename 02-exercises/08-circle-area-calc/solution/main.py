@@ -1,4 +1,6 @@
 PI = 3.14
 
-area = PI * 5 * 5
+radius = float(input("Indtast radius for cirklen: "))
+
+area = PI * radius * radius
 print(area)
